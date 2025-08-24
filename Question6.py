@@ -5,7 +5,7 @@ B = int(input("Enter second number : "))
 C = int(input("Enter third number : "))
 
 if A >= B and A >= C:
-    print("Minimum number is:", A)
+    print("Maximum number is:", A)
 elif B >= A and B >= C:
     print("Maximum number is:", B)
 else:
